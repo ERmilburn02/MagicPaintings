@@ -49,7 +49,6 @@ namespace MagicPaintings.LockAndKey
                         if (col.TryGetComponent<Piece>(out Piece piece))
                         {
                             m_CurrentPiece = piece;
-                            Debug.Log(m_CurrentPiece.gameObject.name);
                         }
                     }
                 }
