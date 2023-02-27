@@ -14,7 +14,7 @@ namespace MagicPaintings.LockAndKey
         {
             if (other.CompareTag("Player"))
             {
-                Debug.Log("Win!");
+                GameManager.Instance.OnPuzzleComplete?.Invoke();
             }
         }
     }
