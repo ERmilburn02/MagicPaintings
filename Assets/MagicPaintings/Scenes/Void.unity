@@ -316,7 +316,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Player6x6Prefab
       value: 
-      objectReference: {fileID: 8107256744731969441, guid: 9d82c09c5a7d99b8696225dd074b9858,
+      objectReference: {fileID: 8154855302914139978, guid: 2cbedce1f2c800f25a5117280f1288db,
         type: 3}
     - target: {fileID: 8750208161357592109, guid: e0a92b23efa6bad7eba9391bc99643b0,
         type: 3}
