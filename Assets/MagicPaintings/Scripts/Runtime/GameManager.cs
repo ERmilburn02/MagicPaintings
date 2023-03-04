@@ -47,8 +47,7 @@ namespace MagicPaintings
 
             if (!hasBigRemaining && !hasSmallRemaining)
             {
-                // Send to win screen
-                Debug.Log("Win!");
+                Menus.Loader.Instance.LoadWin();
 
                 return;
             }
@@ -74,14 +73,14 @@ namespace MagicPaintings
 
         private void SpawnSmallLayout()
         {
-            Instantiate(m_BoardPrefab, m_SpawnParent);
-            Instantiate(m_Board6x6ExtensionPrefab, m_SpawnParent);
+            // Instantiate(m_BoardPrefab, m_SpawnParent);
+            // Instantiate(m_Board6x6ExtensionPrefab, m_SpawnParent);
             Instantiate(m_Player6x6Prefab, m_SpawnParent);
         }
 
         private void SpawnLayout()
         {
-            Instantiate(m_BoardPrefab, m_SpawnParent);
+            // Instantiate(m_BoardPrefab, m_SpawnParent);
             Instantiate(m_PlayerPrefab, m_SpawnParent);
         }
 

@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MagicPaintings/Scenes/Loader.unity
+    guid: b999f5c08a56da9f68248906194a82ca
+  - enabled: 1
     path: Assets/MagicPaintings/Scenes/Void.unity
     guid: cf3e32b6f6884aa63b9a251e7f0c4257
+  - enabled: 1
+    path: Assets/MagicPaintings/Scenes/Menu.unity
+    guid: 9bc19f00ba80cfe65a96ec99a88c652d
+  - enabled: 1
+    path: Assets/MagicPaintings/Scenes/Game.unity
+    guid: 414de07c89f8340b3b8caa2e06d8f184
+  - enabled: 1
+    path: Assets/MagicPaintings/Scenes/Win.unity
+    guid: 7d4e9e530ec9025ce86087b5e2c28ff7
   m_configObjects: {}
