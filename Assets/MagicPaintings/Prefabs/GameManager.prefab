@@ -49,7 +49,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8750208161357592109}
         m_TargetAssemblyTypeName: MagicPaintings.GameManager, MagicPaintings
-        m_MethodName: TempOnPuzzleCompleteCallback
+        m_MethodName: OnPuzzleCompleteCallback
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -59,3 +59,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_BoardPrefab: {fileID: 2172837011327504440, guid: 5b919c0ee410eeb73bd745c9d6eb7417,
+    type: 3}
+  m_Board6x6ExtensionPrefab: {fileID: 3069330562960792621, guid: f47d710a9ca89d5df8734a01e043b542,
+    type: 3}
+  m_PlayerPrefab: {fileID: 1304531619236351702, guid: 5b17a9d3110c29e63a3fbce4fce00c29,
+    type: 3}
+  m_Player6x6Prefab: {fileID: 8154855302914139978, guid: 2cbedce1f2c800f25a5117280f1288db,
+    type: 3}
+  m_LayoutPrefabs: []
+  m_Layout6x6Prefabs:
+  - {fileID: 7506921621274631581, guid: 3b0574f6d33de6c3a96cdf6134b44315, type: 3}
+  - {fileID: 3091516262061330255, guid: 51acaef7c976bbf7fa85b3a1f8ed9409, type: 3}
+  - {fileID: 6613324464719203279, guid: 77b903199d0cdf1eeaa67c72aebc33c4, type: 3}
+  - {fileID: 6449634710821838205, guid: 0622b6237532383908facf1eb8fd5e24, type: 3}
+  - {fileID: 3941877540533983274, guid: ba8665f97986ad0b3adee9ddaaeb0e5c, type: 3}
+  - {fileID: 431708787988886445, guid: 5a2b8609ce052e57e808b33354ba577c, type: 3}
