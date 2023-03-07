@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MagicPaintings
+namespace MagicPaintings.Generics
 {
     public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {

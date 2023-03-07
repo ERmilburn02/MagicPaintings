@@ -1,11 +1,7 @@
 {
-    "name": "MagicPaintings.LockAndKey",
-    "rootNamespace": "MagicPaintings.LockAndKey",
-    "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c",
-        "GUID:58855dd160153dd45917e04b80189229",
-        "GUID:ce704619177740d4db9f4fa3a9cd924f"
-    ],
+    "name": "MagicPaintings.Generics",
+    "rootNamespace": "MagicPaintings.Generics",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

@@ -1,7 +1,9 @@
 {
     "name": "MagicPaintings",
     "rootNamespace": "MagicPaintings",
-    "references": [],
+    "references": [
+        "GUID:ce704619177740d4db9f4fa3a9cd924f"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
