@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace MagicPaintings.Menus
@@ -15,6 +14,8 @@ namespace MagicPaintings.Menus
         /// </summary>
         IEnumerator Start()
         {
+            AudioManager.Instance.PlayClip("MenuLoop");
+
             yield return new WaitForEndOfFrame();
 
             m_MenuCamera.SetActive(true);
@@ -30,6 +31,8 @@ namespace MagicPaintings.Menus
             m_MenuCamera.SetActive(false);
 
             yield return new WaitForSeconds(2);
+
+            AudioManager.Instance.StopLoopingClip("MenuLoop");
 
             Loader.Instance.LoadGame();
         }

@@ -1,10 +1,7 @@
 {
-    "name": "MagicPaintings",
-    "rootNamespace": "MagicPaintings",
-    "references": [
-        "GUID:ce704619177740d4db9f4fa3a9cd924f",
-        "GUID:3513c2824be1eefdda0532d3c208b611"
-    ],
+    "name": "MagicPaintings.ScriptableObjects",
+    "rootNamespace": "MagicPaintings.ScriptableObjects",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

@@ -38,6 +38,8 @@ namespace MagicPaintings
         {
             m_SpawnParent = new GameObject("Spawn Parent").transform;
 
+            AudioManager.Instance.PlayClip("GameLoop");
+
             SpawnPuzzle();
         }
 

@@ -8,6 +8,8 @@ namespace MagicPaintings.Menus
     {
         public void OnMenuButtonClick()
         {
+            AudioManager.Instance.StopLoopingClip("GameLoop");
+
             Loader.Instance.LoadMenu();
         }
     }
